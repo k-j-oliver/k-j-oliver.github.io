@@ -1,39 +1,8 @@
-## Welcome to GitHub Pages
+Hey there. I'm Kathleen Oliver, a candidate for the combined MA/MLIS in Humanities Computing at the University of Alberta. 
 
-Project: [Stormlight Archive Scraper](https://k-j-oliver.github.io/StormlightArchiveScraper/) found here.
+## Projects
 
-You can use the [editor on GitHub](https://github.com/k-j-oliver/k-j-oliver.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# Stormlight Archive Scraper
+This scraper collects biographical data from each character entry in this fan-made wikia page: [Stormlight Archive Wikia](http://stormlightarchive.wikia.com/wiki/Category:Characters). The data is entered into a MySQL database in multiple tables; first as single entity tables, then with another script, relationship tables between biographical data. For instance, the "gender" table holds each of the possible genders. This was the initial scrape and table build. Then, the second script is run to collect the character's name and gender, building the relationship table. From this, we can ask MySQL how many characters are female, giving us data to fill the bar chart visualization. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/k-j-oliver/k-j-oliver.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Stormlight Archive Scraper](https://k-j-oliver.github.io/StormlightArchiveScraper/) found here.
