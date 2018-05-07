@@ -32,10 +32,30 @@ For instance, the "gender" table holds each of the possible genders. This was th
 ```
 
 Then, the second script is run using the character ID from initial scrape to build the various relationship tables. Here is the `characters_gender` table.
- ![CharacterGenderTable screenshot](k-j-oliver.github.io/CharactersGenderTable.png)
+```
+| character_gender_id | character_id | gender         |
++---------------------+--------------+----------------+
+|                   1 |            1 | Male           |
+|                   2 |            2 | Male           |
+|                   3 |            3 | Male           |
+|                   4 |            4 | Male           |
+|                   5 |            5 | Male           |
+|                   6 |            6 | Female         |
+|                   7 |            7 | Female         |
+|                   8 |            8 | Male           |
+|                   9 |            9 | Male           |
+|                  10 |           10 | Male           |
+```
 
 From this, we can ask MySQL how many characters are female, giving us data to fill the bar chart visualization. 
-![NumberOfCharactersGender screenshot](k-j-oliver.github.io/NumberOfCharactersGender.png)
+```
+SELECT COUNT(character_id) AS NumberOfCharacters, gender FROM characters_gender WHERE gender = 'Female';
++--------------------+--------+
+| NumberOfCharacters | gender |
++--------------------+--------+
+|                106 | Female |
++--------------------+--------+
+```
 
 Here is the JSON encoded result, used for the bar chart visualizations:
 `[{"NumberOfCharacters":"316","gender":"Male"},{"NumberOfCharacters":"106","gender":"Female"},{"NumberOfCharacters":"2","gender":"NULL"},{"NumberOfCharacters":"1","gender":"Male (assumed)"},{"NumberOfCharacters":"1","gender":"Unknown"}]`
