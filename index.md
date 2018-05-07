@@ -33,6 +33,7 @@ For instance, the "gender" table holds each of the possible genders. This was th
 
 Then, the second script is run using the character ID from initial scrape to build the various relationship tables. Here is the `characters_gender` table.
 ```
++---------------------+--------------+----------------+
 | character_gender_id | character_id | gender         |
 +---------------------+--------------+----------------+
 |                   1 |            1 | Male           |
