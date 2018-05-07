@@ -8,7 +8,7 @@ For instance, the "gender" table holds each of the possible genders. This was th
 ![GenderTable screenshot](https://github.com/k-j-oliver/k-j-oliver.github.io/blob/master/GenderTable.png) ![NameTable screenshot](https://github.com/k-j-oliver/k-j-oliver.github.io/blob/master/NameTable.png)
 
 Then, the second script is run using the character ID from initial scrape to build the various relationship tables. Here is the `characters_gender` table.
- ![CharacterGenderTable screenshot](https://github.com/k-j-oliver/k-j-oliver.github.io/blob/master/CharactersGenderTable.png)
+ ![CharacterGenderTable screenshot](k-j-oliver.github.io/CharactersGenderTable.png)
 
 From this, we can ask MySQL how many characters are female, giving us data to fill the bar chart visualization. 
 ![NumberOfCharactersGender screenshot](https://github.com/k-j-oliver/k-j-oliver.github.io/blob/master/NumberOfCharactersGender.png)
