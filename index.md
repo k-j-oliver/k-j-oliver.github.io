@@ -4,7 +4,7 @@ Hey there. I'm Kathleen Oliver, a candidate for the combined MA/MLIS in Humaniti
 
 ## Stormlight Archive Scraper
 This scraper collects biographical data from each character entry in this fan-made wikia page: [Stormlight Archive Wikia](http://stormlightarchive.wikia.com/wiki/Category:Characters). The data is entered into multiple MySQL tables; first as single entity tables, then with another script, the relationship tables are built. For this project, I used the relationship tables for the queries. Examples follow to demonstrate.  
-The `gender` and `name` tables hold all genders inputted by participants:  
+The `gender` and `name` tables hold all genders and names inputted by participants:  
 ```
 +-----------+----------------+  
 | gender_id | gender         |  
