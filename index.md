@@ -3,8 +3,8 @@ Hey there. I'm Kathleen Oliver, a candidate for the combined MA/MLIS in Humaniti
 # Projects
 
 ## Stormlight Archive Scraper
-This scraper collects biographical data from each character entry in this fan-made wikia page: [Stormlight Archive Wikia](http://stormlightarchive.wikia.com/wiki/Category:Characters). The data is entered into multiple MySQL tables; first as single entity tables, then with another script, relationship tables between biographical data.  
-For instance, the "gender" table holds each of the possible genders. This was the initial scrape and table build. Examples of Gender and Name tables below.  
+This scraper collects biographical data from each character entry in this fan-made wikia page: [Stormlight Archive Wikia](http://stormlightarchive.wikia.com/wiki/Category:Characters). The data is entered into multiple MySQL tables; first as single entity tables, then with another script, the relationship tables are built. For this project, I used the relationship tables for the queries. Examples follow to demonstrate.  
+The `gender` and `name` tables hold all genders inputted by participants:  
 ```
 +-----------+----------------+  
 | gender_id | gender         |  
@@ -31,7 +31,7 @@ For instance, the "gender" table holds each of the possible genders. This was th
 |      10 | Alakavish                    |  
 ```
 
-Then, the second script is run using the character ID from initial scrape to build the various relationship tables. Here is the `characters_gender` table.
+The second script is run using the character ID from initial scrape to build the various relationship tables. Here is the `characters_gender` table.
 ```
 +---------------------+--------------+----------------+
 | character_gender_id | character_id | gender         |
