@@ -76,7 +76,9 @@ dd {
 }
 
 dd h3 {
-	margin: -0.5px 0;	
+	margin: -0.5px 0;
+	font-family:'Garamond', 'EB Garamond', 'Serif';
+	font-weight: bold;
 }
 
 .cv p {
