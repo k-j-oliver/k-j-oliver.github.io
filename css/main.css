@@ -44,9 +44,33 @@ h1 {
     font-size: 3em;
     font-family:'Garamond', 'EB Garamond', 'Serif';
 }
+
+h6 span {
+	bottom: 0; 
+	right: 0; 
+	font-style: italic; 
+	font-family: 'Georgia,' 'Serif'; 
+	font-size: 16px; 
+	color: #999; 
+	font-weight: normal;
+	float: right;
+}
+
+dt { 
+	font-style: italic; 
+	font-weight: bold; 
+	font-size: 18px; 
+	text-align: right; 
+	padding: 0 26px 0 0; 
+	width: 150px; 
+	float: left; 
+	height: 100px; 
+	border-right: 2px solid #999;  
+}
+
 p {
     font-size: 1.5em;
-		font-family: 'Bahnschrift Light', 'Candara', 'FreeSans', 'Sans-Serif';
+	font-family: 'Bahnschrift Light', 'Candara', 'FreeSans', 'Sans-Serif';
     line-height: 1.4em;
 }
 footer {
