@@ -22,7 +22,7 @@ body {
 
 .profile img {
 	float: left;
-	padding: 0 15px 0 0;
+	padding: 0 15px 0 25px;
 }
 
 .clear { 
@@ -34,6 +34,8 @@ nav ul, footer ul {
   	margin: 0;
   	padding: 10px;
   	overflow: hidden;
+	margin: auto;
+    	width: 60%; 
 }
 
 nav ul li, footer ul li {
