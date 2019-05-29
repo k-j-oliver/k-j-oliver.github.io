@@ -1,24 +1,23 @@
 body {
 	background-color: #e6e6e6;
 	margin: auto;
+	font-family: 'Bahnschrift Light', 'Candara', 'FreeSans', 'Sans-Serif';
 	width: 60%;
 }
 
-a {
-	text-decoration: none;
-	color: #808080;
+.clear { clear: both; 
 }
 
 nav ul, footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 10px;
-  overflow: hidden;
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 10px;
+  	overflow: hidden;
 }
 
 nav ul li, footer ul li {
-  display: inline;
-  float: left;
+  	display: inline;
+  	float: left;
 }
 
 footer ul li {
@@ -26,54 +25,70 @@ footer ul li {
 }
 
 nav li a {
-  text-decoration: none;
-  color: #808080;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
+ 	text-decoration: none;
+  	color: #808080;
+  	display: block;
+  	text-align: center;
+  	padding: 14px 16px;
 }
 
 nav li a:hover {
-  background-color: #bfbfbf;
-  color: #ffffff;
-  display: block;
-  text-decoration: none;
+  	background-color: #bfbfbf;
+  	color: #ffffff;
+  	display: block;
+  	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: #808080;
 }
 
 h1 {
-    font-size: 3em;
-    font-family:'Garamond', 'EB Garamond', 'Serif';
+    	font-size: 3em;
+    	font-family:'Garamond', 'EB Garamond', 'Serif';
 }
 
-h6 span {
-	bottom: 0; 
-	right: 0; 
+.cv span {
 	font-style: italic; 
-	font-family: 'Georgia,' 'Serif'; 
 	font-size: 16px; 
-	color: #999; 
+	color: #808080; 
 	font-weight: normal;
 	float: right;
+	padding: 0 20px 0 0;
 }
 
 dt { 
 	font-style: italic; 
 	font-weight: bold; 
-	font-size: 18px; 
+	font-size: 20px; 
 	text-align: right; 
-	padding: 0 26px 0 0; 
-	width: 150px; 
+	padding: 20px 20px 0 0; 
+	width: 20%; 
 	float: left; 
 	height: 100px; 
 	border-right: 2px solid #999;  
 }
 
+dd {
+	overflow: hidden;
+	padding: 0 0 0 20px;
+}
+
+dd h3 {
+	margin: -0.5px 0;	
+}
+
+.cv p {
+	font-size: 1em;
+	margin: -0.5px 20px;
+}
+
 p {
-    font-size: 1.5em;
-	font-family: 'Bahnschrift Light', 'Candara', 'FreeSans', 'Sans-Serif';
-    line-height: 1.4em;
+    	font-size: 1.5em;
+    	line-height: 1.4em;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    	border-top: 2px solid #d5d5d5;
+    	font-size: .8em;
 }
