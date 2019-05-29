@@ -47,6 +47,12 @@ footer ul li {
 	margin-right: 20px;
 }
 
+footer {
+    	border-top: 2px solid #990000;
+    	font-size: .8em;
+	width: 60%;
+}
+
 nav li a {
  	text-decoration: none;
   	color: #808080;
@@ -112,8 +118,4 @@ dd h3 {
 p {
     	font-size: 1.5em;
     	line-height: 1.4em;
-}
-footer {
-    	border-top: 2px solid #990000;
-    	font-size: .8em;
 }
