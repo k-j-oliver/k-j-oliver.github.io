@@ -1,11 +1,32 @@
 body {
 	background-color: #e6e6e6;
-	margin: auto;
 	font-family: 'Bahnschrift Light', 'Candara', 'FreeSans', 'Sans-Serif';
-	width: 60%;
+	
 }
 
-.clear { clear: both; 
+.content {
+	width: 60%;
+	margin: auto;
+}
+
+.profile {
+	background-color: #990000;
+	color: #e6e6e6;
+	border-top: 3px solid #cc0000;
+    	border-bottom: 3px solid #cc0000;
+}
+
+.profile h1, h2 {
+	display: inline;
+}
+
+.profile img {
+	float: left;
+	padding: 0 15px 0 0;
+}
+
+.clear { 
+	clear: both; 
 }
 
 nav ul, footer ul {
