@@ -52,6 +52,8 @@ footer {
     	font-size: .8em;
 	width: 60%;
 	margin: auto;
+	padding: 20px 0 20px 0;
+        margin: 100x 0 0 0;
 }
 
 nav li a {
@@ -76,10 +78,12 @@ a {
 
 h1 {
     	font-size: 3.5em;
+	font-family:'Garamond', 'EB Garamond', 'Serif';
 }
 
 h2 {
-	font-size: 2em;	
+	font-size: 2em;
+	font-family:'Garamond', 'EB Garamond', 'Serif';
 }
 
 .cv span {
@@ -122,4 +126,8 @@ dd h3 {
 p {
     	font-size: 1.5em;
     	line-height: 1.4em;
+}
+
+.buffer {
+	padding: 60px 0 0 0;	
 }
