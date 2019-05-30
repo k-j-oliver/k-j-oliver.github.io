@@ -13,6 +13,7 @@ body {
 	background-color: #990000;
 	color: #e6e6e6;
     	border-bottom: 3px solid #cc0000;
+	margin: 0 -10px 0;
 	padding: 25px 185px 25px 0;
 	font-family:'Garamond', 'EB Garamond', 'Serif';
 }
@@ -51,9 +52,9 @@ footer {
     	border-top: 2px solid #990000;
     	font-size: .8em;
 	width: 60%;
-	margin: auto;
 	padding: 20px 0 20px 0;
-        margin: 100x 0 0 0;
+        margin-top: 10%;
+	margin: auto;
 }
 
 nav li a {
@@ -84,6 +85,12 @@ h1 {
 h2 {
 	font-size: 2em;
 	font-family:'Garamond', 'EB Garamond', 'Serif';
+}
+
+h3 {
+	font-size: 1.5em;
+	font-family:'Garamond', 'EB Garamond', 'Serif';
+	margin-bottom: -10px;
 }
 
 .cv span {
@@ -124,8 +131,8 @@ dd h3 {
 }
 
 p {
-    	font-size: 1.5em;
-    	line-height: 1.4em;
+    	font-size: 1.3em;
+    	line-height: 1.3em;
 }
 
 .buffer {
