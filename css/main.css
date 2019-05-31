@@ -138,3 +138,29 @@ p {
 .buffer {
 	padding: 60px 0 0 0;	
 }
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.skills {
+	flex: 40%;
+	padding: 10% 20px 20px;
+}
+
+.skills>h4 {
+	text-align: center;
+	font-family:'Garamond', 'EB Garamond', 'Serif';
+}
+
+.main {
+	flex: 60%;
+	padding: 20px;
+}
+
